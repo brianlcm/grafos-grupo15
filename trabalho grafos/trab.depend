@@ -1,0 +1,140 @@
+# depslib dependency file v1.0
+1558126449 source:/ice/trabalho grafos/Aresta.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Aresta.h"
+
+1558125629 /ice/trabalho grafos/Aresta.h
+	"No.h"
+
+1558125629 /ice/trabalho grafos/No.h
+
+1558126782 source:/ice/trabalho grafos/main.cpp
+	<iostream>
+	"Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1558126082 /ice/trabalho grafos/Grafo.h
+	"No.h"
+	"Aresta.h"
+
+1558126803 source:/ice/trabalho grafos/Grafo.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
+1558126324 source:/ice/trabalho grafos/No.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
+1558478036 source:/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/Aresta.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Aresta.h"
+
+1558477805 /home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/Aresta.h
+	"No.h"
+
+1558487668 /home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/No.h
+
+1558487458 source:/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/Grafo.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
+1558487470 /home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/Grafo.h
+	"No.h"
+	"Aresta.h"
+
+1558487695 source:/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/main.cpp
+	<iostream>
+	"Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1558486972 source:/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/No.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
+1558478036 source:/media/thallys/bffefa8d-e6a1-4f06-965e-e12ad6e57de9/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/Aresta.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Aresta.h"
+
+1558477805 /media/thallys/bffefa8d-e6a1-4f06-965e-e12ad6e57de9/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/Aresta.h
+	"No.h"
+
+1558912764 /media/thallys/bffefa8d-e6a1-4f06-965e-e12ad6e57de9/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/No.h
+
+1558910554 source:/media/thallys/bffefa8d-e6a1-4f06-965e-e12ad6e57de9/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/Grafo.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
+1558911428 /media/thallys/bffefa8d-e6a1-4f06-965e-e12ad6e57de9/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/Grafo.h
+	"No.h"
+	"Aresta.h"
+
+1558487695 source:/media/thallys/bffefa8d-e6a1-4f06-965e-e12ad6e57de9/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/main.cpp
+	<iostream>
+	"Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1558486972 source:/media/thallys/bffefa8d-e6a1-4f06-965e-e12ad6e57de9/home/thallys/Downloads/trabalho grafos-20190518T002557Z-001/trabalho grafos/No.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
+1558478036 source:/ice/Downloads/Trabalho de Grafos - 26 de Maio/trabalho grafos/Aresta.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Aresta.h"
+
+1558477805 /ice/Downloads/Trabalho de Grafos - 26 de Maio/trabalho grafos/Aresta.h
+	"No.h"
+
+1558912764 /ice/Downloads/Trabalho de Grafos - 26 de Maio/trabalho grafos/No.h
+
+1558910554 source:/ice/Downloads/Trabalho de Grafos - 26 de Maio/trabalho grafos/Grafo.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+
+1558911428 /ice/Downloads/Trabalho de Grafos - 26 de Maio/trabalho grafos/Grafo.h
+	"No.h"
+	"Aresta.h"
+
+1558487695 source:/ice/Downloads/Trabalho de Grafos - 26 de Maio/trabalho grafos/main.cpp
+	<iostream>
+	"Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1558913322 source:/ice/Downloads/Trabalho de Grafos - 26 de Maio/trabalho grafos/No.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
