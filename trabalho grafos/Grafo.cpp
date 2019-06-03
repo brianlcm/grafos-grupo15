@@ -224,23 +224,39 @@ void Grafo::caminhamentoLargura(int no)
     No* i = buscaNoId(no);
     int contador=0;
     queue<No*> fila;
-    for(;i!=NULL;i = i->getProx()) // Inicializa todos os nós como não marcados
+    for(; i!=NULL; i = i->getProx()) // Inicializa todos os nós como não marcados
     {
-        i->marcado = false;
+        i->setMarcado(false);
     }
 
-    for(i = buscaNoId(no);i!=NULL;i = i->getProx())
-    {
-        if(i->marcado==false)
-        {
-            cout << "No " << i->getId() << " visitado." << endl;
+    i = buscaNoId(no);
+    ///print
+    cout << i->getId() << " inserido." << endl;
+//    while(i!=NULL)
+//    {
+//        if(!i->getMarcado())
+//        {
             contador++;
-            i->marcado = true;
+            i->setMarcado(true);
             fila.push(i);
-            while(fila.empty())
+            while(!fila.empty())
             {
-                for(Aresta* aresta = fila.front()->getAdj())
+                for(Aresta* aresta = fila.front()->getAdj(); aresta != NULL; aresta = aresta->getProx())
+                {
+                    if(!aresta->getNoAdj()->getMarcado())
+                    {
+                        fila.push(aresta->getNoAdj());
+                        ///print
+                        cout << aresta->getNoAdj()->getId() << " inserido." << endl;
+                        contador++;
+                        aresta->getNoAdj()->setMarcado(true);
+                    }
+                }
+                fila.pop();
             }
-        }
-    }
+            cout << "contador: " << contador;
+//        }
+//        cout << i->getId() << endl;
+//        i = i->getProx();
+//    }
 }

@@ -138,3 +138,39 @@
 	"No.h"
 	"Aresta.h"
 
+1559242184 source:/ice/grafos-grupo15-master/trabalho grafos/Aresta.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Aresta.h"
+
+1559242184 /ice/grafos-grupo15-master/trabalho grafos/Aresta.h
+	"No.h"
+
+1559242184 /ice/grafos-grupo15-master/trabalho grafos/No.h
+
+1559595022 source:/ice/grafos-grupo15-master/trabalho grafos/main.cpp
+	<iostream>
+	"Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1559242184 /ice/grafos-grupo15-master/trabalho grafos/Grafo.h
+	"No.h"
+	"Aresta.h"
+
+1559242184 source:/ice/grafos-grupo15-master/trabalho grafos/No.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
+1559594685 source:/ice/grafos-grupo15-master/trabalho grafos/Grafo.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+	<queue>
+

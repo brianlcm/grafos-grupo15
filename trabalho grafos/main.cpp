@@ -14,6 +14,7 @@ int main()
     grafo->leArquivo("entrada.txt"); ///Leitura do grafo
 
     grafo->imprime();
+    grafo->caminhamentoLargura(12);
 
     return 0;
 }
