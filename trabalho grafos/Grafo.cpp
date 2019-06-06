@@ -222,41 +222,30 @@ void Grafo::leArquivo(char arquivo[50])
 void Grafo::caminhamentoLargura(int no)
 {
     No* i = buscaNoId(no);
-    int contador=0;
+    int contador=0; // contador que é atualizada a cada inserção na fila
     queue<No*> fila;
-    for(; i!=NULL; i = i->getProx()) // Inicializa todos os nós como não marcados
+    for(; i!=NULL; i = i->getProx()) // Inicializa todos os nós como não marcados para fazer a comparação depois
     {
         i->setMarcado(false);
     }
-
-    i = buscaNoId(no);
-    ///print
-    cout << i->getId() << " inserido." << endl;
-//    while(i!=NULL)
-//    {
-//        if(!i->getMarcado())
-//        {
-            contador++;
-            i->setMarcado(true);
-            fila.push(i);
-            while(!fila.empty())
+    i = buscaNoId(no); // atualiza variável i para valor de "no", pois o for anterior modificou esse valor
+    cout << i->getId() << " inserido." << endl; /// print para verificar algoritmo (excluir?)
+    contador++;
+    i->setMarcado(true);
+    fila.push(i); // insere na fila
+    while(!fila.empty())
+    {
+        for(Aresta* aresta = fila.front()->getAdj(); aresta != NULL; aresta = aresta->getProx())
+        {
+            if(!aresta->getNoAdj()->getMarcado())
             {
-                for(Aresta* aresta = fila.front()->getAdj(); aresta != NULL; aresta = aresta->getProx())
-                {
-                    if(!aresta->getNoAdj()->getMarcado())
-                    {
-                        fila.push(aresta->getNoAdj());
-                        ///print
-                        cout << aresta->getNoAdj()->getId() << " inserido." << endl;
-                        contador++;
-                        aresta->getNoAdj()->setMarcado(true);
-                    }
-                }
-                fila.pop();
+                fila.push(aresta->getNoAdj());
+                cout << aresta->getNoAdj()->getId() << " inserido." << endl; /// print para verificar algoritmo (excluir?)
+                contador++;
+                aresta->getNoAdj()->setMarcado(true);
             }
-            cout << "contador: " << contador;
-//        }
-//        cout << i->getId() << endl;
-//        i = i->getProx();
-//    }
+        }
+        fila.pop(); // Excluir primeiro elemento da fila
+    }
+    cout << endl << "Contador: " << contador;
 }
