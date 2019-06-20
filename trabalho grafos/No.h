@@ -11,8 +11,6 @@ public:
     void setId(int novoId){id = novoId;}
     int getPeso(){return peso;}
     void setPeso(float novoPeso){peso = novoPeso;}
-    bool getMarcado(){  return this->marcado;   };
-    void setMarcado(bool marcado){  this->marcado = marcado;  };
     int getGrauEntrada(){return grauEntrada;}
     void setGrauEntrada(int novoGrauEntrada){grauEntrada = novoGrauEntrada;}
     int getGrauSaida(){return grauSaida;}
@@ -21,8 +19,9 @@ public:
     No* getProx(){return prox;}
     void setAdj(Aresta* aresta){adj=aresta;}
     Aresta* getAdj(){return adj;}
+    bool getMarcado(){  return this->marcado;   };
+    void setMarcado(bool marcado){  this->marcado = marcado;  };
     void imprime();
-    void imprimePonderado();
 private:
     int id;
     float peso;

@@ -15,8 +15,3 @@ void Aresta::imprime()
 {
     cout << " --|" << this->id << "|-->" << this->noAdj->getId() << " ";
 }
-
-void Aresta::imprimePonderado()
-{
-    cout << " --|" << this->id << "|-->" << this->noAdj->getId() << " (" << this->peso << ")";
-}

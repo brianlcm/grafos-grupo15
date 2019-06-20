@@ -13,7 +13,6 @@ public:
     void setNoAdj(No* no){noAdj = no;}
     No* getNoAdj(){return noAdj;}
     void imprime();
-    void imprimePonderado();
 private:
     No* noAdj;
     int id;
