@@ -138,3 +138,9 @@ void Grafo::eh_orientado(char chave)
     else
         grafo->setEhOrientado(false);
 }
+
+void Grafo::AGMKruskal()
+{
+    No* floresta = new No(getOrdem());
+    cout << "Teste da ordem: " << getOrdem();
+}

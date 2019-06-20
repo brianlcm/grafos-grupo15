@@ -29,6 +29,7 @@ public:
     void imprime();
     void caminhamentoLargura(int no);
     void dijkstra(int no1, int no2);
+    void AGMKruskal();
 private:
     int ordem;
     int grau;
