@@ -22,6 +22,11 @@ public:
     bool getMarcado(){  return this->marcado;   };
     void setMarcado(bool marcado){  this->marcado = marcado;  };
     void imprime();
+
+    int getIdAux(){return idAux;}
+    void setIdAux(int novoId){idAux = novoId;}
+    int getTamanho(){return tamanho;}
+    void setTamanho(int novotam){tamanho = novotam;}
 private:
     int id;
     float peso;
@@ -31,6 +36,9 @@ private:
     int grauEntrada;
     int grauSaida;
     bool marcado;
+
+    int idAux; /// Variavel auxiliar para a função de componentes fortemente conexas
+    int tamanho; /// Variavel auxiliar para a função de componentes fortemente conexas
 };
 
 

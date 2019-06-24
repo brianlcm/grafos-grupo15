@@ -5,6 +5,8 @@
 	<stdlib.h>
 	"Aresta.h"
 
+1561027666 
+
 1558125629 /ice/trabalho grafos/Aresta.h
 	"No.h"
 
@@ -101,6 +103,45 @@
 	<stdlib.h>
 
 1559824446 source:c:\users\breno galo\downloads\brian\teoria dos grafos\trabalho grafos\no.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
+1561027921 source:/ice/Downloads/grafos-grupo15-master/trabalho grafos/Aresta.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Aresta.h"
+
+1561027921 /ice/Downloads/grafos-grupo15-master/trabalho grafos/Aresta.h
+	"No.h"
+
+1561408792 /ice/Downloads/grafos-grupo15-master/trabalho grafos/No.h
+
+1561408863 source:/ice/Downloads/grafos-grupo15-master/trabalho grafos/Grafo.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+	<queue>
+
+1561408792 /ice/Downloads/grafos-grupo15-master/trabalho grafos/Grafo.h
+	"No.h"
+	"Aresta.h"
+
+1561408848 source:/ice/Downloads/grafos-grupo15-master/trabalho grafos/main.cpp
+	<iostream>
+	"Grafo.h"
+	"No.h"
+	"Aresta.h"
+	<sstream>
+	<fstream>
+	<iostream>
+	<stdlib.h>
+
+1561408792 source:/ice/Downloads/grafos-grupo15-master/trabalho grafos/No.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>

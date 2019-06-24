@@ -139,8 +139,58 @@ void Grafo::eh_orientado(char chave)
         grafo->setEhOrientado(false);
 }
 
-void Grafo::AGMKruskal()
+void Grafo::caminhamentoProfundidadeModificado(No* no, int idAtual)
 {
-    No* floresta = new No(getOrdem());
-    cout << "Teste da ordem: " << getOrdem();
+    No* aux = no;
+    while(no != NULL)  // Inicializa todos os nós como não marcados para fazer a comparação depois
+    {
+        no->setMarcado(false);
+        no = no->getProx();
+    }
+
+    aux = no;
+
+    while(aux != NULL)
+    {
+        if(!aux->getMarcado())
+        {
+            AuxCaminhamentoProfundidadeModificado(aux, idAtual);
+        }
+        aux = aux->getProx();
+    }
+}
+
+void Grafo::AuxCaminhamentoProfundidadeModificado(No* no, int idAtual)
+{
+    int g = no->getGrauSaida(); /// Pegar função com Daniel
+    no->setMarcado(true);
+    cout<<"Leu vertice "<<no->getId()<<endl;
+    no->setIdAux(idAtual);
+
+    if(g!=0)
+    {
+        Aresta* point;
+        for(point = no->getAdj(); point != NULL; point = point->getProx())
+        {
+            if(!point->getNoAdj()->getMarcado())
+            {
+                AuxCaminhamentoProfundidadeModificado(point->getNoAdj(), idAtual);
+            }
+        }
+    }
+}
+
+void Grafo::componentesForteConexas()
+{
+    No* no  = getListaNos();
+    int idAtual = 1;
+    while(no!=NULL)
+    {
+        if(no->getIdAux()==0)
+        {
+            caminhamentoProfundidadeModificado(no);
+            idAtual++;
+        }
+        no = no->getProx();
+    }
 }

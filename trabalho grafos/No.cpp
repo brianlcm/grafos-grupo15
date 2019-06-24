@@ -12,6 +12,8 @@ No::No(int id)
     this->id = id;
     this->prox = NULL;
     this->adj = NULL;
+    this->idAux = 0;
+    this->tamanho = 0;
 }
 
 void No::imprime()

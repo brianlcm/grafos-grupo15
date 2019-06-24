@@ -17,6 +17,7 @@ public:
     void setArestasPond(bool novaArestaPond){arestasPonderadas = novaArestaPond;};
     bool getEhOrientado(){return ehOrientado;};
     void setEhOrientado(bool ehOrienttado){ehOrientado = ehOrientado;};
+    No* getListaNos(){return ListaNos;};
 
     void leArquivo(char arquivo[50]);
     void insereVetor(int v1, Grafo* gr);
@@ -28,8 +29,11 @@ public:
     No* buscaNoId(int id);
     void imprime();
     void caminhamentoLargura(int no);
-    void dijkstra(int no1, int no2);
-    void AGMKruskal();
+
+    void caminhamentoProfundidadeModificado(No* no);
+    void AuxCaminhamentoProfundidadeModificado(No* no);
+    void componentesForteConexas();
+
 private:
     int ordem;
     int grau;
