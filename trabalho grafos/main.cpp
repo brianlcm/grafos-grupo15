@@ -9,26 +9,25 @@
 
 using namespace std;
 
-//void cabecalhoTrabalho()
-//{
-//
-//    cout << "#----------------------------------------------------------------------------#"<< endl;
-//    cout << "-----------------  Trabalho de Grafos 2019-1  - Grupo 15 --------------------" << endl;
-//    cout << "-----------------           Equipe de Alunos             --------------------" << endl;
-//    cout << "-----------------       Brian Maia                - 201665512B---------------" << endl;
-//    cout << "-----------------       Daniel Ferreira           - 201665519AB--------------" << endl;
-//    cout << "-----------------       Luis Guilherme Cipriani   - 201776040 ---------------" << endl;
-//    cout << "-----------------       Thallys da Silva Nogueira - 201365390B---------------" << endl;
-//    cout << "-----------------     Professor orientador: Stênio Sã         ---------------" << endl;
-//    cout << "#----------------------------------------------------------------------------#" << endl;
-//    cout << endl;
-//
-//}
-//
+void cabecalhoTrabalho()
+{
+
+    cout << "#----------------------------------------------------------------------------#"<< endl;
+    cout << "-----------------  Trabalho de Grafos 2019-1  - Grupo 15 --------------------" << endl;
+    cout << "-----------------           Equipe de Alunos             --------------------" << endl;
+    cout << "-----------------       Brian Maia                - 201665512B---------------" << endl;
+    cout << "-----------------       Daniel Ferreira           - 201665519AB--------------" << endl;
+    cout << "-----------------       Luis Guilherme Cipriani   - 201776040 ---------------" << endl;
+    cout << "-----------------       Thallys da Silva Nogueira - 201365390B---------------" << endl;
+    cout << "-----------------     Professor orientador: Stênio Sã         ---------------" << endl;
+    cout << "#----------------------------------------------------------------------------#" << endl;
+    cout << endl;
+
+}
+
 void leArquivo(char arquivo[50], Grafo* gr)
 {
     int tam;
-    char chave;
     FILE* file;
     file = fopen(arquivo, "r");
 
@@ -38,7 +37,7 @@ void leArquivo(char arquivo[50], Grafo* gr)
         exit(0);
     }
 
-    gr->eh_orientado(chave);
+    gr->eh_orientado();
 
     if(!feof(file))
     {
@@ -57,31 +56,33 @@ void leArquivo(char arquivo[50], Grafo* gr)
             gr->insereNo(v1);
         if(!gr->buscaNoId(v2))
             gr->insereNo(v2);
+        if(gr->getEhOrientado() == false)
+        {
+            gr->insereAresta(peso, v1, v2);
+            gr->insereAresta(peso, v2, v1);
+        }else
         gr->insereAresta(peso, v1, v2);
     }
-//    void verificaOrdem(gr);
 }
 
 int main()
 {
-    //cabecalhoTrabalho();
+    cabecalhoTrabalho();
     Grafo* grafo = new Grafo();
-    //for(int i=0;i<5;i++)
-    //{
-    //    grafo->insereNo(i);
-    //}
-
-    /*grafo->insereAresta(1, 1, 2);
-    grafo->insereAresta(2, 1, 4);
-    grafo->insereAresta(3, 3, 0);
-    grafo->insereAresta(4, 0, 1);
-    grafo->insereAresta(5, 0, 3);
-    grafo->insereAresta(6, 3, 1);*/
 
     leArquivo("entrada.txt", grafo);
 
     grafo->imprime();
+    /*vector<No*> teste;
+    teste = grafo->guloso();
 
-    //grafo->caminhamentoLargura(1);
+    for(unsigned int i=0;i<teste.size();i++)
+    {
+
+        cout << teste.at(i)->getId() << endl;
+    }
+    cout<< teste.size() << endl;
+    cout<<"flag"<<endl;*/
+    grafo->componentesForteConexas();
     return 0;
 }

@@ -5,7 +5,7 @@
 	<stdlib.h>
 	"Aresta.h"
 
-1561027666 
+1561409630 
 
 1558125629 /ice/trabalho grafos/Aresta.h
 	"No.h"
@@ -35,64 +35,109 @@
 	"No.h"
 	"Aresta.h"
 
-1558112574 source:/ice/Downloads/trabalho grafos/Aresta.cpp
+1559824446 source:/ice/Downloads/trabalho grafos/Aresta.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
 	"Aresta.h"
 
-1558112572 /ice/Downloads/trabalho grafos/Aresta.h
+1559824446 /ice/Downloads/trabalho grafos/Aresta.h
 	"No.h"
 
-1559833561 /ice/Downloads/trabalho grafos/No.h
+1559824446 /ice/Downloads/trabalho grafos/No.h
 
-1559834349 source:/ice/Downloads/trabalho grafos/Grafo.cpp
-	<iostream>
-	<stdio.h>
-	<stdlib.h>
-	"Grafo.h"
-	<queue>
-
-1559833502 /ice/Downloads/trabalho grafos/Grafo.h
-	"No.h"
-	"Aresta.h"
-
-1559834384 source:/ice/Downloads/trabalho grafos/main.cpp
-	<iostream>
-	"Grafo.h"
-	"No.h"
-	"Aresta.h"
-
-1558112574 source:/ice/Downloads/trabalho grafos/No.cpp
-	<iostream>
-	<stdio.h>
-	<stdlib.h>
-	"No.h"
-	"Aresta.h"
-
-1559824446 source:c:\users\breno galo\downloads\brian\teoria dos grafos\trabalho grafos\aresta.cpp
-	<iostream>
-	<stdio.h>
-	<stdlib.h>
-	"Aresta.h"
-
-1559824446 c:\users\breno galo\downloads\brian\teoria dos grafos\trabalho grafos\aresta.h
-	"No.h"
-
-1559824446 c:\users\breno galo\downloads\brian\teoria dos grafos\trabalho grafos\no.h
-
-1561027666 source:c:\users\breno galo\downloads\brian\teoria dos grafos\trabalho grafos\grafo.cpp
+1559824446 source:/ice/Downloads/trabalho grafos/Grafo.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
 	"Grafo.h"
 	<queue>
 
-1561027630 c:\users\breno galo\downloads\brian\teoria dos grafos\trabalho grafos\grafo.h
+1559824446 /ice/Downloads/trabalho grafos/Grafo.h
 	"No.h"
 	"Aresta.h"
 
-1561013626 source:c:\users\breno galo\downloads\brian\teoria dos grafos\trabalho grafos\main.cpp
+1559824448 source:/ice/Downloads/trabalho grafos/main.cpp
+	<iostream>
+	"Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1559824446 source:/ice/Downloads/trabalho grafos/No.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
+1559824446 source:c:\users\danie\desktop\faculdade\trabgrafosatualizado\trabalho grafos\aresta.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Aresta.h"
+
+1561409579 c:\users\danie\desktop\faculdade\trabgrafosatualizado\trabalho grafos\aresta.h
+	"No.h"
+
+1561409618 c:\users\danie\desktop\faculdade\trabgrafosatualizado\trabalho grafos\no.h
+
+1559824446 source:c:\users\danie\desktop\faculdade\trabgrafosatualizado\trabalho grafos\grafo.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+	<queue>
+
+1561409630 c:\users\danie\desktop\faculdade\trabgrafosatualizado\trabalho grafos\grafo.h
+	"No.h"
+	"Aresta.h"
+	<stack>
+	<vector>
+
+1559824448 source:c:\users\danie\desktop\faculdade\trabgrafosatualizado\trabalho grafos\main.cpp
+	<iostream>
+	"Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1560751188 source:c:\users\danie\desktop\faculdade\trabgrafosatualizado\trabalho grafos\no.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
+1561657628 source:/ice/Downloads/TrabGrafosAtualizado/trabalho grafos/Aresta.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Aresta.h"
+
+1561657626 /ice/Downloads/TrabGrafosAtualizado/trabalho grafos/Aresta.h
+	"No.h"
+
+1562012389 /ice/Downloads/TrabGrafosAtualizado/trabalho grafos/No.h
+
+1562013778 source:/ice/Downloads/TrabGrafosAtualizado/trabalho grafos/Grafo.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Grafo.h"
+	<queue>
+	<stack>
+	<limits>
+	<vector>
+	<limits.h>
+	<bits/stdc++.h>
+	<algorithm>
+
+1562012316 /ice/Downloads/TrabGrafosAtualizado/trabalho grafos/Grafo.h
+	"No.h"
+	"Aresta.h"
+	<stack>
+	<vector>
+
+1562013880 source:/ice/Downloads/TrabGrafosAtualizado/trabalho grafos/main.cpp
 	<iostream>
 	"Grafo.h"
 	"No.h"
@@ -102,36 +147,51 @@
 	<iostream>
 	<stdlib.h>
 
-1559824446 source:c:\users\breno galo\downloads\brian\teoria dos grafos\trabalho grafos\no.cpp
+1561657628 source:/ice/Downloads/TrabGrafosAtualizado/trabalho grafos/No.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
 	"No.h"
 	"Aresta.h"
 
-1561027921 source:/ice/Downloads/grafos-grupo15-master/trabalho grafos/Aresta.cpp
+1562002880 source:c:\users\breno galo\downloads\brian\30 de junho\atualizado\trabgrafosatualizado\trabalho grafos\aresta.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
 	"Aresta.h"
 
-1561027921 /ice/Downloads/grafos-grupo15-master/trabalho grafos/Aresta.h
+1562002880 c:\users\breno galo\downloads\brian\30 de junho\atualizado\trabgrafosatualizado\trabalho grafos\aresta.h
 	"No.h"
 
-1561408792 /ice/Downloads/grafos-grupo15-master/trabalho grafos/No.h
+1562068746 c:\users\breno galo\downloads\brian\30 de junho\atualizado\trabgrafosatualizado\trabalho grafos\no.h
 
-1561408863 source:/ice/Downloads/grafos-grupo15-master/trabalho grafos/Grafo.cpp
+1562068746 source:c:\users\breno galo\downloads\brian\30 de junho\atualizado\trabgrafosatualizado\trabalho grafos\no.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"No.h"
+	"Aresta.h"
+
+1562074972 source:c:\users\breno galo\downloads\brian\30 de junho\atualizado\trabgrafosatualizado\trabalho grafos\grafo.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
 	"Grafo.h"
 	<queue>
+	<stack>
+	<limits>
+	<vector>
+	<limits.h>
+	<bits/stdc++.h>
+	<algorithm>
 
-1561408792 /ice/Downloads/grafos-grupo15-master/trabalho grafos/Grafo.h
+1562069858 c:\users\breno galo\downloads\brian\30 de junho\atualizado\trabgrafosatualizado\trabalho grafos\grafo.h
 	"No.h"
 	"Aresta.h"
+	<stack>
+	<vector>
 
-1561408848 source:/ice/Downloads/grafos-grupo15-master/trabalho grafos/main.cpp
+1562065942 source:c:\users\breno galo\downloads\brian\30 de junho\atualizado\trabgrafosatualizado\trabalho grafos\main.cpp
 	<iostream>
 	"Grafo.h"
 	"No.h"
@@ -140,11 +200,4 @@
 	<fstream>
 	<iostream>
 	<stdlib.h>
-
-1561408792 source:/ice/Downloads/grafos-grupo15-master/trabalho grafos/No.cpp
-	<iostream>
-	<stdio.h>
-	<stdlib.h>
-	"No.h"
-	"Aresta.h"
 

@@ -12,6 +12,8 @@ No::No(int id)
     this->id = id;
     this->prox = NULL;
     this->adj = NULL;
+    d = -1;
+    p = -1;
     this->idAux = 0;
     this->tamanho = 0;
 }
